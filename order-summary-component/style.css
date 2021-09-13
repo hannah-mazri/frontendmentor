@@ -11,90 +11,76 @@ body {
   font-family: 'Red Hat Display', sans-serif;
   overflow: overlay;
 }
-.main {
+#main {
   background-image: url('./assets/pattern-background-mobile.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
-.card-container {
+#card-container {
   width: 300px;
   height: 580px;
   box-shadow: 0 8px 10px rgb(0 0 0 / 0.1);
 }
-.card-body {
+#card-body {
   padding: 0 24px 20px;
 }
-
-.link-purple:hover {
+#change-link:hover {
   color: hsl(245, 75%, 65%);
   text-decoration: none;
 }
-.payment-link {
+#payment-link {
   margin: 24px 0;
   padding: 14px 0;
   text-decoration: none;
   box-shadow: 0 16px 16px rgb(0 0 0 / 0.2);
 }
-.payment-link:hover {
+#payment-link:hover {
   background-color: hsl(245, 75%, 65%);
 }
-.cancel-button {
+#cancel-link {
   background-color: transparent;
   text-decoration: none;
 }
-.cancel-button:hover {
+#cancel-link:hover {
   cursor: pointer;
   color: var(--dark-blue);
 }
-.attribution {
-  margin-top: 8px;
-  width: 100%;
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 
 @media (min-width: 321px) {
-  .card-container {
+  #card-container {
     width: 320px;
   }
 }
 @media (min-width: 376px) {
-  .main {
+  #main {
     background-image: url('./assets/pattern-background-desktop.svg');
   }
 }
-
 @media (min-width: 426px) {
-  .card-container {
+  #card-container {
     width: 360px;
     height: 600px;
   }
 }
-
 @media (min-width: 648px) {
-  .main {
+  #main {
     padding: 48px 0;
   }
-  .card-container {
+  #card-container {
     width: 420px;
   }
 }
-
 @media (min-width: 675px) {
-  .card-container {
+  #card-container {
     width: 480px;
     height: 720px;
   }
-
-  .card-body {
+  #card-body {
     padding: 0 48px;
   }
 }
 @media (min-width: 1440px) {
-  .main {
+  #main {
     padding: 0;
   }
 }
