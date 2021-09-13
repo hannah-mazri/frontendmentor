@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Order Summary screenshot: desktop view](./screenshot-order-summary-desktop.png)
 
 ### Links
 
 - [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://hannah-mazri.github.io/frontendmentor/order-summary-component)
 
 ## My process
 
