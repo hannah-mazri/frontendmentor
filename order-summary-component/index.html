@@ -17,41 +17,87 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../utilities.css" />
 
     <title>Order summary card</title>
   </head>
-  <body>
-    <main class="main">
-      <div class="card-container">
-        <img class="card-image" src="./assets/illustration-hero.svg" alt="" />
+  <body class="m-0 p-0 bg-blue-100 text-base">
+    <main
+      class="
+        main
+        w-screen
+        min-h-screen
+        flex flex-col
+        justify-center
+        items-center
+      "
+    >
+      <div
+        class="
+          card-container
+          flex flex-col
+          bg-white
+          rounded-2xl
+          overflow-hidden
+        "
+      >
+        <img
+          class="card-image w-full m-0 p-0 object-fill"
+          src="./assets/illustration-hero.svg"
+          alt=""
+        />
 
-        <div class="card-body">
+        <div class="card-body flex flex-col flex-1 justify-center items-center">
           <div class="text-center">
-            <h3 class="header">Order Summary</h3>
-            <p class="subtitle">
+            <h3 class="font-extrabold text-2xl text-blue-400">Order Summary</h3>
+            <p class="py-0 px-2 font-medium text-base text-blue-200">
               You can now listen to millions of songs, audiobooks, and podcasts
               on any device anywhere you like!
             </p>
           </div>
 
-          <div class="annual-plan-card">
-            <div class="left">
+          <div
+            class="
+              box-border
+              flex
+              justify-between
+              items-center
+              rounded-2xl
+              bg-blue-50
+              w-full
+              my-2
+              p-4
+            "
+          >
+            <div class="flex items-center">
               <img src="./assets/icon-music.svg" alt="" />
-              <div class="annual-plan-middle">
-                <div
-                  class="font-semibold"
-                  style="margin-bottom: 4px; color: var(--dark-blue)"
-                >
-                  Annual Plan
-                </div>
-                <span class="font-light">$59.99/year</span>
+              <div class="flex flex-col ml-4">
+                <div class="font-bold text-blue-400 mb-1">Annual Plan</div>
+                <span class="text-base text-blue-200">$59.99/year</span>
               </div>
             </div>
-            <a href="#" class="link-purple">Change</a>
+            <a href="#" class="link-purple font-bold text-sm text-blue-300"
+              >Change</a
+            >
           </div>
 
-          <a href="#" class="payment-link">Proceed to Payment</a>
-          <a href="../" class="cancel-button">Cancel Order</a>
+          <a
+            href="#"
+            class="
+              payment-link
+              w-full
+              rounded-lg
+              bg-blue-300
+              font-bold
+              text-blue-50 text-center
+            "
+            >Proceed to Payment</a
+          >
+          <a
+            href="../"
+            class="cancel-button font-black text-blue-200 border-0 py-4 px-0"
+            >Cancel Order</a
+          >
         </div>
       </div>
     </main>
